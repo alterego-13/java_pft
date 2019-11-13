@@ -5,9 +5,9 @@ public class MyFirstProgram {
     hello("world");
     double len = 5;
     System.out.println("Площадь квадрата со стороной " + len + "=" + area(len));
-double a = 4 ;
-double b = 6 ;
-    System.out.println("площадь прям со сторонами"+ a + "="+ b + "=" + area(a,b));
+    double a = 4;
+    double b = 6;
+    System.out.println("площадь прям со сторонами" + a + "=" + b + "=" + area(a, b));
   }
 
   public static void hello(String somebody) {
@@ -20,8 +20,8 @@ double b = 6 ;
 
   }
 
-  public static double area(double a, double b){
-    return a * b ;
+  public static double area(double a, double b) {
+    return a * b;
   }
 
 }
