@@ -15,7 +15,9 @@ dependencies {
     implementation 'org.testng:testng:7.0.0'
 }
 buildScan {
- //   allowUntrustedServer = true
+
+    server = "https://gradle-enterprise.mycompany.com"
+    allowUntrustedServer = true
     termsOfServiceUrl = "https://gradle.com/terms-of-service";
     termsOfServiceAgree = "yes"
 }
