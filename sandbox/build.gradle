@@ -1,18 +1,18 @@
 apply plugin: 'java'
 apply plugin: 'application'
 
-group 'com.test'
-version '1.0-SNAPSHOT'
+
 
 
 repositories {
-    mavenLocal()
+
     mavenCentral()
-    jcenter()
+    maven { setUrl("https://plugins.gradle.org/m2") }
+
 }
 
 dependencies {
-    compile "org.testng:testng:6.9.10"
+    compile group: 'org.testng', name: 'testng', version: '6.9.10'
 }
 test {
     useTestNG()
