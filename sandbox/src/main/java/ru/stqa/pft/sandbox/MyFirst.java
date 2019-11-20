@@ -8,8 +8,8 @@ import java.awt.*;
 public class MyFirst {
   public static void main(String[] args) {
     hello("hello motherfuckers");
-    hello("");
-    hello("");
+    hello("1");
+    hello("2");
 
     Square s = new Square(5);
     System.out.println("площадь квадрата со стороной " + s.l + " = " + s.area());
@@ -19,7 +19,7 @@ public class MyFirst {
   }
 
   public static void hello(String somebody) {
-    System.out.println("Hello " + somebody);
+    System.out.println("  " + somebody);
 
   }
 
