@@ -1,0 +1,18 @@
+apply plugin: 'java'
+
+repositories {
+
+    mavenCentral()
+   maven { setUrl("https://plugins.gradle.org/m2") }
+
+}
+
+dependencies {
+    compile group: 'org.testng', name: 'testng', version: '6.9.10'
+  //  compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '2.48.2'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-firefox-driver', version: '3.141.59'
+}
+test {
+    useTestNG()
+}
