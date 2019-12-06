@@ -10,10 +10,8 @@ public class GroupCreateTest extends TestBase {
   public void testCreateGroupCase() throws Exception {
 
     app.getGroupHelper().returnToGroupPage();
-    app.getGroupHelper().initGroupCreation();
-    app.getGroupHelper().fillGroupForm(new GroupData("test1", null, null));
-    app.getGroupHelper().submitGroupCreation();
-    app.getGroupHelper().returnToGroupPage();
+    app.getGroupHelper().createGroup(new GroupData("test1", null, null));
+
   }
 
 }

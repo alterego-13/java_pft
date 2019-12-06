@@ -14,6 +14,7 @@ public class ApplicationManager {
   protected WebDriver driver;
 
   private GroupHelper groupHelper;
+  private ContactHelper contactHelper;
   private SessionHelper sessionHelper;
   public String baseUrl;
   public StringBuffer verificationErrors;
@@ -24,6 +25,7 @@ public class ApplicationManager {
 
     this.browser = browser;
   }
+
   final String s = System.setProperty("webdriver.gecko.driver", "C://Program Files//Mozilla Firefox/geckodriver.exe");
 
   public void init() {
@@ -37,11 +39,11 @@ public class ApplicationManager {
     }
 
 
-
     baseUrl = "http://www.google.com/";
-    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     driver.get("http://localhost/addressbook/");
     groupHelper = new GroupHelper(driver);
+    contactHelper = new ContactHelper(driver);
     sessionHelper = new SessionHelper(driver);
     sessionHelper.login("admin", "secret");
   }
@@ -79,4 +81,6 @@ public class ApplicationManager {
   public GroupHelper getGroupHelper() {
     return groupHelper;
   }
+
+  public ContactHelper getContactHelper() { return contactHelper ; }
 }
