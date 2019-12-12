@@ -8,7 +8,7 @@ import ru.stqa.pft.addressbook.model.ContactData;
  * Created by Андрей on 06.12.2019.
  */
 public class ContactModificationTests extends TestBase {
-  @Test
+  @Test(enabled = false)
 
   public void testContactModification() {
     {
