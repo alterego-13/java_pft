@@ -12,6 +12,7 @@ dependencies {
   //  compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '2.48.2'
     compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
     compile group: 'org.seleniumhq.selenium', name: 'selenium-firefox-driver', version: '3.141.59'
+    testCompile group: 'org.hamcrest', name: 'java-hamcrest', version: '2.0.0.0'
 }
 test {
     useTestNG()

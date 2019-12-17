@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="com.basistech:java-hamcrest-osgi:2.0.0.0" type="repository">
+    <properties maven-id="com.basistech:java-hamcrest-osgi:2.0.0.0" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/basistech/java-hamcrest-osgi/2.0.0.0/java-hamcrest-osgi-2.0.0.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/java-hamcrest/2.0.0.0/java-hamcrest-2.0.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
