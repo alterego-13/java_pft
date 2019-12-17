@@ -39,8 +39,10 @@ public class GroupModificationTests extends TestBase {
     GroupData group = new GroupData()
             .withId(modifiedGroup.getId()).withName("test3").withHeader("test4").withFooter("test5");
     app.group().modify(group);
+    assertThat(app.group().count(), equalTo(before.size()));
     Groups after = app.group().all();
-    assertEquals(after.size(), before.size());
+
+    // assertEquals(after.size(), before.size());
     before.remove(modifiedGroup);
     before.add(group);
   /*  Comparator<? super GroupData> byId = (g1, g2) -> Integer.compare(g1.getId(), g2.getId());
