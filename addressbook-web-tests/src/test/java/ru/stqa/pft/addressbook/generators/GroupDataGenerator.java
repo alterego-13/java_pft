@@ -18,6 +18,7 @@ import java.util.List;
 public class GroupDataGenerator {
   @Parameter(names = "-c", description = "Group count")
   public int count;
+
   @Parameter(names = "-f", description = "Target file")
   public String file;
 
@@ -54,7 +55,7 @@ public class GroupDataGenerator {
     List<GroupData> groups = new ArrayList<GroupData>();
     for (int i = 0; i < count; i++) {
       groups.add(new GroupData().withName(String.format("test %s", i))
-              .withHeader(String.format("test %s", 1)).withFooter(String.format("test %s", i)));
+              .withHeader(String.format("header %s", i)).withFooter(String.format("footer %s", i)));
 
     }
     return groups;
