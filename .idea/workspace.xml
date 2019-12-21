@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bb7ec4e-f42f-4a11-9b6a-711b66930e82" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addressbook-web-tests/build/classes/test/ru/stqa/pft/addressbook/generators/GroupDataGenerator.class" afterPath="$PROJECT_DIR$/addressbook-web-tests/build/classes/test/ru/stqa/pft/addressbook/generators/GroupDataGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addressbook-web-tests/build.gradle" afterPath="$PROJECT_DIR$/addressbook-web-tests/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/generators/GroupDataGenerator.java" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/generators/GroupDataGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/resources/group.csv" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/resources/group.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/GroupCreateTest.java" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/GroupCreateTest.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,15 +51,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GroupDataGenerator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GroupDataGenerator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/generators/GroupDataGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42696628">
+            <state vertical-scroll-proportion="0.0">
               <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1512#1523#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupCreateTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/GroupCreateTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.68041235">
+              <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#535#545#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MatcherAssert.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hamcrest/java-hamcrest/2.0.0.0/a0413cf330eddf469d7600b36b4d115170f95a62/java-hamcrest-2.0.0.0-sources.jar!/org/hamcrest/MatcherAssert.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -786,13 +805,13 @@
         <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/GroupHelper.java" />
         <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/GroupModificationTests.java" />
         <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/GroupDeletionsTests.java" />
-        <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/GroupCreateTest.java" />
         <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/model/ContactData.java" />
         <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/ContactCreateTests.java" />
         <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java" />
         <option value="$PROJECT_DIR$/addressbook-web-tests/build.gradle" />
         <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/resources/group.csv" />
         <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/generators/GroupDataGenerator.java" />
+        <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/GroupCreateTest.java" />
       </list>
     </option>
   </component>
@@ -807,8 +826,8 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-104" />
-    <option name="y" value="23" />
+    <option name="x" value="-495" />
+    <option name="y" value="16" />
     <option name="width" value="1284" />
     <option name="height" value="685" />
   </component>
@@ -1082,7 +1101,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GroupDataGenerator">
+  <component name="RunManager" selected="TestNG.GroupCreateTest.testCreateGroupCase">
     <configuration default="false" name="GroupDataGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1101,39 +1120,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="addressbook-web-tests" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="GroupDeletionsTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="addressbook-web-tests" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.GroupDeletionsTests" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
       <method />
     </configuration>
     <configuration default="false" name="ContactCreateTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
@@ -1216,6 +1202,39 @@
       <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
       <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.GroupCreateTest" />
       <option name="METHOD_NAME" value="testBadCreateGroupCase" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="GroupCreateTest.testCreateGroupCase" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="addressbook-web-tests" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.GroupCreateTest" />
+      <option name="METHOD_NAME" value="testCreateGroupCase" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" />
@@ -1494,18 +1513,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.GroupDataGenerator" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.GroupDeletionsTests" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.ContactCreateTests" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.ru.stqa.pft.addressbook.tests" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.GroupCreateTest.testBadCreateGroupCase" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.ContactCreateTests" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.ru.stqa.pft.addressbook.tests" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.GroupCreateTest.testBadCreateGroupCase" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.GroupCreateTest.testCreateGroupCase" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.GroupDataGenerator" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.ru.stqa.pft.addressbook.tests" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.GroupCreateTest.testBadCreateGroupCase" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.ContactCreateTests" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.GroupDeletionsTests" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.GroupCreateTest.testCreateGroupCase" />
+        <item index="1" class="java.lang.String" itemvalue="Application.GroupDataGenerator" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.ru.stqa.pft.addressbook.tests" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.GroupCreateTest.testBadCreateGroupCase" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.ContactCreateTests" />
       </list>
     </recent_temporary>
   </component>
@@ -1523,23 +1542,23 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ContactCreateTests - 2019.12.18 at 01h 05m 48s.xml">
-      <configuration name="ContactCreateTests" configurationId="TestNG" />
+    <history-entry file="GroupCreateTest_testCreateGroupCase - 2019.12.21 at 17h 04m 57s.xml">
+      <configuration name="GroupCreateTest.testCreateGroupCase" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupCreateTest_testBadCreateGroupCase - 2019.12.18 at 01h 06m 39s.xml">
-      <configuration name="GroupCreateTest.testBadCreateGroupCase" configurationId="TestNG" />
+    <history-entry file="GroupCreateTest_testCreateGroupCase - 2019.12.21 at 17h 07m 01s.xml">
+      <configuration name="GroupCreateTest.testCreateGroupCase" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupCreateTest_testBadCreateGroupCase - 2019.12.18 at 01h 09m 17s.xml">
-      <configuration name="GroupCreateTest.testBadCreateGroupCase" configurationId="TestNG" />
+    <history-entry file="GroupCreateTest_testCreateGroupCase - 2019.12.21 at 17h 07m 35s.xml">
+      <configuration name="GroupCreateTest.testCreateGroupCase" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupDeletionsTests - 2019.12.18 at 00h 57m 05s.xml">
-      <configuration name="GroupDeletionsTests" configurationId="TestNG" />
+    <history-entry file="GroupCreateTest_testCreateGroupCase - 2019.12.21 at 17h 19m 23s.xml">
+      <configuration name="GroupCreateTest.testCreateGroupCase" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupModificationTests - 2019.12.17 at 02h 05m 42s.xml">
-      <configuration name="GroupModificationTests" configurationId="TestNG" />
+    <history-entry file="GroupCreateTest_testCreateGroupCase - 2019.12.21 at 17h 20m 01s.xml">
+      <configuration name="GroupCreateTest.testCreateGroupCase" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ru_stqa_pft_addressbook_tests - 2019.12.17 at 00h 51m 47s.xml">
-      <configuration name="ru.stqa.pft.addressbook.tests" configurationId="TestNG" />
+    <history-entry file="GroupCreateTest_testCreateGroupCase - 2019.12.21 at 17h 27m 51s.xml">
+      <configuration name="GroupCreateTest.testCreateGroupCase" configurationId="TestNG" />
     </history-entry>
     <history-entry file="ru_stqa_pft_addressbook_tests - 2019.12.17 at 02h 10m 24s.xml">
       <configuration name="ru.stqa.pft.addressbook.tests" configurationId="TestNG" />
@@ -1564,17 +1583,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-104" y="23" width="1284" height="685" extended-state="0" />
+    <frame x="-495" y="16" width="1284" height="685" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296501" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2658228" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19018404" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32668713" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3056058" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4231465" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32822084" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35620916" sideWeight="0.49386504" order="0" side_tool="false" content_ui="combo" />
@@ -1635,13 +1654,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/GroupHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/ContactCreateTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1957,16 +1969,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/GroupCreateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/resources/stru.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1984,14 +1986,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44835165">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/ContactCreateTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7098901">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2023,13 +2017,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/ContactCreateTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28651685">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/generators/GroupDataGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42696628">
+        <state vertical-scroll-proportion="0.0">
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1512#1523#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hamcrest/java-hamcrest/2.0.0.0/a0413cf330eddf469d7600b36b4d115170f95a62/java-hamcrest-2.0.0.0-sources.jar!/org/hamcrest/MatcherAssert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/GroupCreateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68041235">
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#535#545#0" expanded="true" />
           </folding>
         </state>
       </provider>
