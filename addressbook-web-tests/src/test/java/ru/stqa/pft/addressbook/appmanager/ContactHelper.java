@@ -18,11 +18,11 @@ public class ContactHelper extends HelperBase {
 
 
   public void fillContactForm(ContactData contactData, boolean creation) {
-    type(By.name("firstname"), contactData.getFirstname());
-    type(By.name("lastname"), contactData.getLastname());
+    type(By.name("firstname"), contactData.withFirstname());
+    type(By.name("lastname"), contactData.withLastname());
 
     if (creation) {
-      new Select(driver.findElement(By.name("new_group"))).selectByVisibleText(contactData.getGroup());
+      new Select(driver.findElement(By.name("new_group"))).selectByVisibleText(contactData.withGroup());
     } else {
       Assert.assertFalse(isElementPresent(By.name("new_group")));
 
