@@ -14,6 +14,7 @@ dependencies {
     compile group: 'org.seleniumhq.selenium', name: 'selenium-firefox-driver', version: '3.141.59'
     testCompile group: 'org.hamcrest', name: 'java-hamcrest', version: '2.0.0.0'
     compile group: 'com.beust', name: 'jcommander', version: '1.48'
+    compile group: 'com.thoughtworks.xstream', name: 'xstream', version: '1.4.8'
 }
 test {
     useTestNG()
