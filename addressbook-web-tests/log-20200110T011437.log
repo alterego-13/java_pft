@@ -1,0 +1,8 @@
+20569 [main] INFO  r.s.pft.addressbook.tests.TestBase - Start testtestBadCreateGroupCase with parameters[]
+37239 [main] INFO  r.s.pft.addressbook.tests.TestBase - Stop testtestBadCreateGroupCase
+37416 [main] INFO  r.s.pft.addressbook.tests.TestBase - Start testtestCreateGroupCase with parameters[GroupData{id='2147483647', name='test 0'}]
+46824 [main] INFO  r.s.pft.addressbook.tests.TestBase - Stop testtestCreateGroupCase
+46825 [main] INFO  r.s.pft.addressbook.tests.TestBase - Start testtestCreateGroupCase with parameters[GroupData{id='2147483647', name='test 1'}]
+60092 [main] INFO  r.s.pft.addressbook.tests.TestBase - Stop testtestCreateGroupCase
+60094 [main] INFO  r.s.pft.addressbook.tests.TestBase - Start testtestCreateGroupCase with parameters[GroupData{id='2147483647', name='test 2'}]
+73740 [main] INFO  r.s.pft.addressbook.tests.TestBase - Stop testtestCreateGroupCase
